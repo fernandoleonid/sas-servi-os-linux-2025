@@ -152,28 +152,28 @@ Desenvolva um conjunto de scripts em Bash para automatizar a administração do 
 
 ---
 
-## SAS-06: Automação de Serviços Linux - Samba (LDAP)
+## SAS-06: Automação de Serviços Linux - Samba (SMB)
 
 **Enunciado:**  
-Desenvolva um conjunto de scripts em Bash para automatizar a administração do serviço Samba com autenticação LDAP. O script principal deve ser chamado `auth_samba_ldap.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
+Desenvolva um conjunto de scripts em Bash para automatizar a administração do serviço Samba com protocolo SMB. O script principal deve ser chamado `fileserver_samba_smb.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
 
 **Opções do Menu:**
 - 1. Iniciar / Parar / Reiniciar  
    - 1.1. Iniciar  
    - 1.2. Parar  
    - 1.3. Reiniciar  
-- 2. Configurar autenticação LDAP  
-   - 2.1. Configurar servidor LDAP  
-   - 2.2. Testar autenticação  
+- 2. Configurar compartilhamentos SMB  
+   - 2.1. Adicionar compartilhamento  
+   - 2.2. Remover compartilhamento  
 - 3. Adicionar/Remover usuários  
    - 3.1. Adicionar usuário  
    - 3.2. Remover usuário  
-- 4. Verificar conexão  
-   - 4.1. Testar conexão LDAP  
-   - 4.2. Exibir status  
+- 4. Verificar status  
+   - 4.1. Listar compartilhamentos ativos  
+   - 4.2. Testar acesso ao compartilhamento  
 
 **Requisitos:**  
-- O script principal (`auth_samba_ldap.sh`) deve chamar os scripts específicos conforme os parâmetros recebidos.  
+- O script principal (`fileserver_samba_smb.sh`) deve chamar os scripts específicos conforme os parâmetros recebidos.  
 - Cada script deve ser autônomo e executar sua tarefa sem prompts interativos.  
 - Os scripts devem receber parâmetros para operar.  
 - Adicione scripts extras, se necessário, com nomes definidos pelo aluno.
