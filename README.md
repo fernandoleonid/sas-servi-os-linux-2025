@@ -248,13 +248,9 @@ Desenvolva um conjunto de scripts em Bash para automatizar a administração do 
    - 1.3. Reiniciar  
 - 2. Configurar compartilhamentos  
    - 2.1. Adicionar compartilhamento  
-   - 2.2. Editar compartilhamento  
-- 3. Exportar/Remover diretórios  
-   - 3.1. Exportar diretório  
-   - 3.2. Remover exportação  
-- 4. Verificar status  
+   - 2.2. Remover compartilhamento  
+- 3. Verificar status  
    - 4.1. Listar compartilhamentos  
-   - 4.2. Testar conexão  
 
 **Requisitos:**  
 - O script principal (`fileserver_nfs.sh`) deve chamar os scripts específicos conforme os parâmetros recebidos.  
