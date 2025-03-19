@@ -278,10 +278,35 @@ Desenvolva um conjunto de scripts em Bash para automatizar a administração do 
    - 3.2. Remover registro  
 - 4. Testar resolução  
    - 4.1. Testar nome específico  
-   - 4.2. Verificar status do serviço  
-
+   - 4.2. Verificar status do serviço
+  
 **Requisitos:**  
 - O script principal (`nameserver_dns.sh`) deve chamar os scripts específicos conforme os parâmetros recebidos.  
+- Cada script deve ser autônomo e executar sua tarefa sem prompts interativos.  
+- Os scripts devem receber parâmetros para operar.  
+- Adicione scripts extras, se necessário, com nomes definidos pelo aluno.
+
+## SAS-11: Automação de Serviços Linux - Usuários
+
+**Enunciado:**  
+Desenvolva um conjunto de scripts em Bash para automatizar a administração de usuários. O script principal deve ser chamado `usuarios_grupos.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
+
+**Opções do Menu:**
+- 1. usuario
+  - 1.1. Criar usuario
+  - 1.2. Lista de usuarios
+  - 1.3. Alterar usuario
+  - 1.4. Excluir usuario
+- 2. Grupos
+  - 2.1. Criar grupo
+  - 2.2. Listar grupos
+  - 2.3. Excluir grupo
+  - 2.4. Listar usuario de um grupo
+  - 2.5. Adicionar usuario a um grupo
+  - 2.6. Remover usuario de um grupo
+
+**Requisitos:**  
+- O script principal (`usuarios_grupos.sh`) deve chamar os scripts específicos conforme os parâmetros recebidos.  
 - Cada script deve ser autônomo e executar sua tarefa sem prompts interativos.  
 - Os scripts devem receber parâmetros para operar.  
 - Adicione scripts extras, se necessário, com nomes definidos pelo aluno.
