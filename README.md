@@ -12,7 +12,7 @@ Esta é uma **Situação de Aprendizagem Somativa** que visa avaliar as competê
 
 ---
 
-## SAS-01: Automação de Serviços Linux - Apache
+## SAS-01: Automação de Serviços Linux - Apache (Samuel e Pedro Neres)
 
 **Enunciado:**  
 Desenvolva um conjunto de scripts em Bash para automatizar a administração do serviço Apache. O script principal deve ser chamado `webserver_apache.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
