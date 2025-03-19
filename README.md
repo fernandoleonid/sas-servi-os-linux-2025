@@ -96,7 +96,7 @@ Desenvolva um conjunto de scripts em Bash para automatizar a administração do 
 
 ---
 
-## SAS-04: Automação de Serviços Linux - PostgreSQL
+## SAS-04: Automação de Serviços Linux - PostgreSQL (Deny e Hector)
 
 **Enunciado:**  
 Desenvolva um conjunto de scripts em Bash para automatizar a administração do serviço PostgreSQL. O script principal deve ser chamado `database_postgresql.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
