@@ -40,7 +40,7 @@ Desenvolva um conjunto de scripts em Bash para automatizar a administração do 
 
 ---
 
-## SAS-02: Automação de Serviços Linux - Nginx
+## SAS-02: Automação de Serviços Linux - Nginx 
 
 **Enunciado:**  
 Desenvolva um conjunto de scripts em Bash para automatizar a administração do serviço Nginx. O script principal deve ser chamado `webserver_nginx.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
@@ -68,7 +68,7 @@ Desenvolva um conjunto de scripts em Bash para automatizar a administração do 
 
 ---
 
-## SAS-03: Automação de Serviços Linux - MySQL
+## SAS-03: Automação de Serviços Linux - MySQL (Aldo, Felipe, Jeferson)
 
 **Enunciado:**  
 Desenvolva um conjunto de scripts em Bash para automatizar a administração do serviço MySQL. O script principal deve ser chamado `database_mysql.sh`. Cada funcionalidade deve ser implementada em um script independente. Caso identifique opções adicionais relevantes, inclua-as como scripts extras.
